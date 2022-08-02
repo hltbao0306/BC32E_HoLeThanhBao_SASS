@@ -1,0 +1,57 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    transition: all 0.3s linear;
+    .menu-header {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        .brand-logo {
+            
+        }
+        .menu-items {
+            nav {
+                .menu {
+                    .item {
+                        .menu-link {
+
+                        }
+                        .active {
+
+                            &::after {
+                                
+                            }
+                        }
+                        .tick {
+                            &::after {
+
+                            }
+                        }
+                    }
+                }
+                .contact-item {
+                    .phone-number {
+                        span {
+
+                        }
+                        i {
+
+                        }
+                    }
+                    .social-contact {
+
+                    }
+                }
+            }
+        }
+    }
+}
